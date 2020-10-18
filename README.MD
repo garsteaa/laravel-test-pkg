@@ -2,6 +2,7 @@
 [![Issues](https://img.shields.io/github/issues/garsteaa/laravel-test-pkg)](https://github.com/garsteaa/laravel-test-pkg)
 [![Github Forks](https://img.shields.io/github/forks/garsteaa/laravel-test-pkg)](https://github.com/garsteaa/laravel-test-pkg/network/members)
 [![Github Stars](https://img.shields.io/github/stars/garsteaa/laravel-test-pkg)](https://github.com/garsteaa/laravel-test-pkg/stargazers)
+
 A simple Contact us Form package with a view and logic to store information from contact page to DataBase and also to send and email notification to admin
 
 ## Instalation
@@ -30,10 +31,14 @@ In .env file set up credentials for database and mail.
 $ php artisan vendor:publish --tag=garstea-contact
 ```
 
+>Will publish `config.php` file and also assets files and necesary views
+
 in config/contact.php are folow variables
 
 - ``` "send_email_to" ``` - on which email address to be send emails
 - ``` "redirect_to" ``` - after succesufully sent email and stored to DB user will be redirected to, default is form contact page.
+
+Blade views are located in `resource/view/vendor/contact` and can be styled or changed how will be liked to you.
 
 
 
@@ -41,4 +46,6 @@ License
 ----
 
 MIT
+
+
 
