@@ -2,7 +2,7 @@
     "name": "garstea/contact",
     "description": "This will send email to admin email and save contact to Database",
     "type": "library",
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andrian",
