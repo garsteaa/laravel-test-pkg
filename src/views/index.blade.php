@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="{{ asset('vendor/contact/css/style.css') }}">
 </head>
 <body>
-
+@if(session('success'))
+    <div class="alert" role="alert">
+        {{session('success')}}
+    </div>
+@endif
 
 <form action="{{ route('garstea.contact.send') }}" method="POST">
     <h3 id="logo">Contact Us</h3>
@@ -19,6 +23,8 @@
     <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
     <input type="submit" value="Submit">
 </form>
+
+
 
 
 </body>

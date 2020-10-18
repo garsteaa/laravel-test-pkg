@@ -10,7 +10,7 @@ body {
 }
 
 form {
-    margin:10% auto 0 auto;
+    margin:5% auto 0 auto;
     padding:30px;
     width:400px;
     height:auto;
@@ -108,4 +108,17 @@ input[type="submit"]:active {
 
 #logo:hover {
     color:cornflowerblue;
+}
+
+.alert{
+    width: 40%;
+    margin: 10px auto;
+    font-family:'Lily Script One', cursive;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    padding: 10px 5px;
+    background: #6bb95b;
+    border-radius: 25px;
+    color: #2d3748;
 }
