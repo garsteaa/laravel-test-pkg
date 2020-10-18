@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\Garstea\\Contact\\ContactServiceProvider"
+                "Garstea\\Contact\\ContactServiceProvider"
             ]
         }
     }
