@@ -10,9 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "garstea/contact": "1.0.*"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Garstea\\Contact\\": "src/"
