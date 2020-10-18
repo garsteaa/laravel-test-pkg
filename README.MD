@@ -2,7 +2,6 @@
 [![Issues](https://img.shields.io/github/issues/garsteaa/laravel-test-pkg)](https://github.com/garsteaa/laravel-test-pkg)
 [![Github Forks](https://img.shields.io/github/forks/garsteaa/laravel-test-pkg)](https://github.com/garsteaa/laravel-test-pkg/network/members)
 [![Github Stars](https://img.shields.io/github/stars/garsteaa/laravel-test-pkg)](https://github.com/garsteaa/laravel-test-pkg/stargazers)
-
 A simple Contact us Form package with a view and logic to store information from contact page to DataBase and also to send and email notification to admin
 
 ## Instalation
@@ -21,6 +20,9 @@ $ php artisan migrate
 ##### Important
 In .env file set up credentials for database and mail.
 
+>In your aplication now is set a new route named "garstea-contact"
+```url('/contact')``` which can be used for accesing contact page view
+
 ## Settings
 - To publish config files run command
 
@@ -37,9 +39,6 @@ in config/contact.php are folow variables
 
 License
 ----
-MIT
 
-Caution
----
->Is first mine package and is used in test purpose only not for production
+MIT
 
