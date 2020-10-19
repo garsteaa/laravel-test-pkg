@@ -42,11 +42,7 @@ Blade views are located in `resource/view/vendor/contact` and can be styled or c
 
 
 
-
-Disclaimer Notice
+License
 ----
 
-This package is intended for internal usage of company and not allowed for external usage
-
-
-
+MIT
