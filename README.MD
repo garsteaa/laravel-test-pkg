@@ -28,7 +28,7 @@ In .env file set up credentials for database and mail.
 - To publish config files run command
 
 ```sh
-$ php artisan vendor:publish --tag=garstea-contact
+$ php artisan vendor:publish --provider="Garstea\Contact\ContactServiceProvider"
 ```
 
 >Will publish `config.php` file and also assets files and necesary views
@@ -42,10 +42,11 @@ Blade views are located in `resource/view/vendor/contact` and can be styled or c
 
 
 
-License
+
+Disclaimer Notice
 ----
 
-MIT
+This package is intended for internal usage of company and not allowed for external usage
 
 
 
